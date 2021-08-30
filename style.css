@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+  }
+  #main{
+    background-color: #EEEEEE;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  #img-div{
+    background-color: #FFFFFF;
+    padding: 0.2em 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #image{
+    width: 70%;
+  }
+  #tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #life-history{
+    width: 800px;
+  }
+  .in-year{
+    font-weight: bold;
+  }
+  footer{
+    text-align: center;
+  }
+  
+  @media (max-width: 1100px){
+    #image{
+     width: 100%;
+    }
+  }
+  @media (max-width: 1000px){
+    #life-history{
+      width: 70%;
+    }
+  
+  @media (max-width: 650px){
+    #life-history{
+      width: 90%;
+    }
+  }
+  }
