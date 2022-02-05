@@ -1,1 +1,1 @@
-simple tribute page to practive responsiveness 
+simple responsive tribute page
